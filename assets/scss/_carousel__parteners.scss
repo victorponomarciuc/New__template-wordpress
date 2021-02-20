@@ -1,0 +1,43 @@
+.wrapper {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.carousel {
+  position: relative;
+
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel::before {
+  left: 0;
+}
+
+.carousel::after {
+  right: 0;
+  transform: rotateZ(180deg);
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  height: 180px;
+  animation: slideshow 100s linear infinite;
+}
+
+.slide__image {
+  width: 150px;
+  margin: 0 40px;
+}
+
+@keyframes slideshow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
