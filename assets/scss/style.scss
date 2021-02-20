@@ -628,76 +628,120 @@ a {
   background-color: #b4b4b4;
   transition: 0.5s;
 }
-.case__studies{
+.case__studies {
   width: 100%;
   margin-top: 10%;
-text-align: center;
+  text-align: center;
 }
-.case__subtitle{
-     color: #4a4a4a;
-    font-family: montserrat,Sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: capitalize;
+.case__subtitle {
+  color: #4a4a4a;
+  font-family: montserrat, Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: capitalize;
 }
-.case__title{
+.case__title {
   color: #16163f;
-    font-family: merriweather,Sans-serif;
-    font-size: 50px;
-    font-weight: 300;
-    text-transform: capitalize;
-    line-height: 1.2em;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  font-family: merriweather, Sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-.case__block{
+.case__block {
   display: flex;
   width: 70%;
   margin: auto;
   justify-content: center;
 }
-.studies__block{
+.studies__block {
   margin: 0 10px;
   background-color: #ebe9e9;
   width: 50%;
   text-align: left;
   display: flex;
 }
-.studies__block-img{
+.studies__block-img {
   width: 50%;
   margin-right: 10px;
 }
-.studies__title{
+.studies__title,
+.form__title {
   color: #211f40;
-    font-family: merriweather,Sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    text-transform: capitalize;
-    line-height: 1.4em;
+  font-family: merriweather, Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 1.4em;
 }
-.studies__post{
-height: 100%;
-display: flex;
-align-items: center;
-flex-wrap: wrap;
+.studies__post {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.studies__post-date{
+.studies__post-date {
   color: #211f40;
-    font-family: montserrat,Sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    text-transform: capitalize;
+  font-family: montserrat, Sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: capitalize;
 }
-.studies__description{
+.studies__description,
+.form__description {
   color: #4a4a4a;
-    font-family: montserrat,Sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 1.5em;
+  font-family: montserrat, Sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5em;
 }
-.section__companions{
+.section__companions {
   height: 180px;
   width: 100%;
   background-color: #16163f;
   margin: 10% 0 5% 0;
+}
+.form__title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.form__description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.form__input-group{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.submit__form {
+  text-align: center;
+  margin-bottom: 10%;
+}
+.input__forms {
+  font-family: montserrat, Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 10px;
+  border: 1.5px solid #dddddd;
+  width: 230px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.send__button {
+  width: 250px;
+  padding: 10px;
+  font-family: montserrat, Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border: none;
+  background-color: #d3b574;
+  color: #16163f;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  margin-right: 15px;
 }

@@ -943,7 +943,7 @@ a {
 
 .case__subtitle {
   color: #4a4a4a;
-  font-family: montserrat,Sans-serif;
+  font-family: montserrat, Sans-serif;
   font-size: 18px;
   font-weight: 300;
   text-transform: capitalize;
@@ -951,7 +951,7 @@ a {
 
 .case__title {
   color: #16163f;
-  font-family: merriweather,Sans-serif;
+  font-family: merriweather, Sans-serif;
   font-size: 50px;
   font-weight: 300;
   text-transform: capitalize;
@@ -986,9 +986,10 @@ a {
   margin-right: 10px;
 }
 
-.studies__title {
+.studies__title,
+.form__title {
   color: #211f40;
-  font-family: merriweather,Sans-serif;
+  font-family: merriweather, Sans-serif;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
@@ -1009,15 +1010,16 @@ a {
 
 .studies__post-date {
   color: #211f40;
-  font-family: montserrat,Sans-serif;
+  font-family: montserrat, Sans-serif;
   font-size: 12px;
   font-weight: 300;
   text-transform: capitalize;
 }
 
-.studies__description {
+.studies__description,
+.form__description {
   color: #4a4a4a;
-  font-family: montserrat,Sans-serif;
+  font-family: montserrat, Sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5em;
@@ -1028,6 +1030,59 @@ a {
   width: 100%;
   background-color: #16163f;
   margin: 10% 0 5% 0;
+}
+
+.form__title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.form__description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form__input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.submit__form {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.input__forms {
+  font-family: montserrat, Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 10px;
+  border: 1.5px solid #dddddd;
+  width: 230px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.send__button {
+  width: 250px;
+  padding: 10px;
+  font-family: montserrat, Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border: none;
+  background-color: #d3b574;
+  color: #16163f;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  margin-right: 15px;
 }
 
 @media (min-width: 100px) and (max-width: 479px) {
