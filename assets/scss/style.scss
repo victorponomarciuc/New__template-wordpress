@@ -84,7 +84,7 @@ a {
   font-weight: 500;
   color: #16163f;
 }
-.navbar__menu-items {
+.navbar__menu-items, .footer__list {
   list-style: none;
 }
 
@@ -690,7 +690,7 @@ a {
   text-transform: capitalize;
 }
 .studies__description,
-.form__description {
+.form__description, .footer__subtitle {
   color: #4a4a4a;
   font-family: montserrat, Sans-serif;
   font-size: 15px;
@@ -711,20 +711,19 @@ a {
   font-size: 18px;
   margin-bottom: 10px;
 }
-.form__input-group{
+.form__input-group {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 .submit__form {
   text-align: center;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .input__forms {
   font-family: montserrat, Sans-serif;
   font-size: 16px;
   font-weight: 400;
-  text-transform: capitalize;
   padding: 10px;
   border: 1.5px solid #dddddd;
   width: 230px;
@@ -744,4 +743,70 @@ a {
   letter-spacing: 1.5px;
   margin-bottom: 10px;
   margin-right: 15px;
+}
+.footer__content {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.footer__overlay {
+  width: 100%;
+  height: 100vh;
+  background: rgba($color: #16163f, $alpha: 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__logo{
+  margin-top: 90px;
+}
+.footer__subtitle{
+  color: #b4b4b4;
+  margin-top: 20px;
+  font-size: 16px;
+  width: 50%;
+  text-align: center;
+}
+.footer__social{
+  margin-top: 50px;
+}
+.footer__info{
+  margin-top: 50px;
+  width: 80%;
+  border-top: 1px solid #7a7a7a;
+  border-bottom: 1px solid #7a7a7a;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.title__categorie{
+  color: #d3b574;
+  font-family: montserrat,Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.footer__list-link{
+  margin-top: 30px;
+  color: white;
+  font-family: montserrat, Sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer__list-link:hover{
+  color: #d3b574;
+
+}
+.footer__list{
+  display: flex;
+  flex-direction: column;
+}
+.footer__date{
+  margin: 30px 0;
+  color: white;
+  font-family: montserrat, Sans-serif;
+  font-size: 14px;
+  font-weight: 300;
 }
