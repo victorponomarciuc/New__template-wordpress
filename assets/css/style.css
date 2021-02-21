@@ -1,72 +1,3 @@
-.wrapper {
-  width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
-}
-
-.carousel {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-}
-
-.carousel::before {
-  left: 0;
-}
-
-.carousel::after {
-  right: 0;
-  -webkit-transform: rotateZ(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotateZ(180deg);
-}
-
-.slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 180px;
-  -webkit-animation: slideshow 100s linear infinite;
-          animation: slideshow 100s linear infinite;
-}
-
-.slide__image {
-  width: 150px;
-  margin: 0 40px;
-}
-
-@-webkit-keyframes slideshow {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-  }
-}
-
-@keyframes slideshow {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -148,8 +79,8 @@ a {
 }
 
 .header__image-social {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin-right: 20px;
 }
 
@@ -1025,13 +956,6 @@ a {
   line-height: 1.5em;
 }
 
-.section__companions {
-  height: 180px;
-  width: 100%;
-  background-color: #16163f;
-  margin: 10% 0 5% 0;
-}
-
 .form__title {
   font-size: 50px;
   margin-bottom: 50px;
@@ -1040,6 +964,7 @@ a {
 .form__description {
   font-size: 18px;
   margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 .form__input-group {
@@ -1128,6 +1053,11 @@ a {
           justify-content: center !important;
 }
 
+.footer__img-social {
+  width: 30px;
+  height: 30px;
+}
+
 .footer__info {
   margin-top: 50px;
   width: 80%;
@@ -1188,6 +1118,9 @@ a {
     width: 95%;
   }
   .left__content {
+    display: none;
+  }
+  .header__more-button {
     display: none;
   }
   .left__menu {
@@ -1406,10 +1339,10 @@ a {
     display: none;
     position: absolute;
     background-color: white;
-    width: 500px;
-    -webkit-transform: translate(-300px, 10px);
-        -ms-transform: translate(-300px, 10px);
-            transform: translate(-300px, 10px);
+    width: 550px;
+    -webkit-transform: translate(-400px, 10px);
+        -ms-transform: translate(-400px, 10px);
+            transform: translate(-400px, 10px);
     text-align: center;
     overflow: auto;
     z-index: 1;
@@ -1481,6 +1414,15 @@ a {
   .studies__block-img {
     margin: auto;
   }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    -webkit-transform: translate(-600px, 10px) !important;
+        -ms-transform: translate(-600px, 10px) !important;
+            transform: translate(-600px, 10px) !important;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -1488,6 +1430,9 @@ a {
     width: 95%;
   }
   .left__content {
+    display: none;
+  }
+  .header__more-button {
     display: none;
   }
   .left__menu {
@@ -1701,6 +1646,7 @@ a {
     cursor: pointer;
   }
   .dropdown {
+    display: contents !important;
     position: relative;
     display: inline-block;
     -webkit-transform: translate(150px, 0px);
@@ -1712,9 +1658,9 @@ a {
     position: absolute;
     background-color: white;
     width: 800px;
-    -webkit-transform: translate(-580px, 10px);
-        -ms-transform: translate(-580px, 10px);
-            transform: translate(-580px, 10px);
+    -webkit-transform: translate(-680px, 10px);
+        -ms-transform: translate(-680px, 10px);
+            transform: translate(-680px, 10px);
     text-align: center;
     overflow: auto;
     z-index: 1;
@@ -1917,10 +1863,10 @@ a {
     display: none;
     position: absolute;
     background-color: white;
-    width: 991px;
-    -webkit-transform: translate(-420px, 10px);
-        -ms-transform: translate(-420px, 10px);
-            transform: translate(-420px, 10px);
+    width: 1050px;
+    -webkit-transform: translate(-470px, 10px);
+        -ms-transform: translate(-470px, 10px);
+            transform: translate(-470px, 10px);
     text-align: center;
     overflow: auto;
     z-index: 1;

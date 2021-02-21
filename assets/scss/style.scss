@@ -1,5 +1,4 @@
 @import "media_adaptiv";
-@import "carousel__parteners";
 * {
   margin: 0;
   padding: 0;
@@ -56,8 +55,8 @@ a {
   flex-wrap: wrap;
 }
 .header__image-social {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin-right: 20px;
 }
 .collapse__menu {
@@ -697,12 +696,6 @@ a {
   font-weight: 300;
   line-height: 1.5em;
 }
-.section__companions {
-  height: 180px;
-  width: 100%;
-  background-color: #16163f;
-  margin: 10% 0 5% 0;
-}
 .form__title {
   font-size: 50px;
   margin-bottom: 50px;
@@ -710,6 +703,7 @@ a {
 .form__description {
   font-size: 18px;
   margin-bottom: 10px;
+margin-top: 50px;
 }
 .form__input-group {
   display: flex;
@@ -773,6 +767,10 @@ a {
   margin-top: 50px;
   width: 90%!important;
   justify-content: center!important;
+}
+.footer__img-social{
+  width: 30px;
+  height: 30px;
 }
 .footer__info{
   margin-top: 50px;
