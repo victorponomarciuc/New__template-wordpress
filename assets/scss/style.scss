@@ -749,11 +749,11 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 .footer__overlay {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: rgba($color: #16163f, $alpha: 0.7);
   display: flex;
   flex-direction: column;
@@ -771,6 +771,8 @@ a {
 }
 .footer__social{
   margin-top: 50px;
+  width: 90%!important;
+  justify-content: center!important;
 }
 .footer__info{
   margin-top: 50px;
@@ -778,6 +780,7 @@ a {
   border-top: 1px solid #7a7a7a;
   border-bottom: 1px solid #7a7a7a;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 50px 0;
 }
@@ -787,6 +790,7 @@ a {
   font-size: 18px;
   font-weight: 300;
   text-transform: capitalize;
+  margin-top: 20px;
 }
 .footer__list-link{
   margin-top: 30px;
